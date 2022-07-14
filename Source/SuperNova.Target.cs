@@ -5,10 +5,10 @@ using System.Collections.Generic;
 
 public class SuperNovaTarget : TargetRules
 {
-	public SuperNovaTarget( TargetInfo Target) : base(Target)
+	public SuperNovaTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.AddRange( new string[] { "SuperNova" } );
+		ExtraModuleNames.Add("SuperNova");
 	}
 }

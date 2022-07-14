@@ -1,16 +1,13 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.27",
+	"EngineAssociation": "{F1B0ACA1-4E00-3814-8799-8EA939CCA41A}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
 		{
 			"Name": "SuperNova",
 			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"Engine"
-			]
+			"LoadingPhase": "Default"
 		}
 	]
 }

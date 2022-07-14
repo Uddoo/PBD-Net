@@ -12,7 +12,10 @@ class SUPERNOVA_API AMiddleSpringActor : public AActor
 	GENERATED_BODY()
 
 	UPROPERTY()
+		float Mass = 0.1f;
 
+	UPROPERTY()
+		float LinearDamping = 0.01f;
 	
 public:	
 	// Sets default values for this actor's properties
